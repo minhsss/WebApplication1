@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Template\ElaAdmin-master\ElaAdmin-master\.github\ISSUE_TEMPLATE.md" />
     <None Include="wwwroot\assets\css\style.css.map" />
     <None Include="wwwroot\assets\fonts\icomoon\icomoon.svg" />
     <None Include="wwwroot\assets\js\dashboard.js" />
