@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\style.css.map" />
+    <None Include="wwwroot\assets\fonts\icomoon\icomoon.svg" />
+    <None Include="wwwroot\assets\js\dashboard.js" />
+    <None Include="wwwroot\assets\js\init\chartjs-init.js" />
+    <None Include="wwwroot\assets\js\init\datatables-init.js" />
+    <None Include="wwwroot\assets\js\init\flot-chart-init.js" />
+    <None Include="wwwroot\assets\js\init\fullcalendar-init.js" />
+    <None Include="wwwroot\assets\js\init\gmap-init.js" />
+    <None Include="wwwroot\assets\js\init\peitychart-init.js" />
+    <None Include="wwwroot\assets\js\init\vector-init.js" />
+    <None Include="wwwroot\assets\js\init\weather-init.js" />
+    <None Include="wwwroot\assets\js\lib\chosen\chosen.jquery.js" />
+    <None Include="wwwroot\assets\js\lib\chosen\chosen.jquery.min.js" />
+    <None Include="wwwroot\assets\js\lib\chosen\chosen.proto.js" />
+    <None Include="wwwroot\assets\js\lib\chosen\chosen.proto.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\buttons.bootstrap.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\buttons.colVis.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\buttons.flash.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\buttons.html5.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\buttons.print.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\dataTables.bootstrap.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\dataTables.buttons.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\datatables.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\jquery-1.12.4.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\jquery.dataTables.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\jszip.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\pdfmake.min.js" />
+    <None Include="wwwroot\assets\js\lib\data-table\vfs_fonts.js" />
+    <None Include="wwwroot\assets\js\lib\gmap\gmapApi.js" />
+    <None Include="wwwroot\assets\js\lib\gmap\gmaps.js" />
+    <None Include="wwwroot\assets\js\lib\gmap\gmaps.min.js" />
+    <None Include="wwwroot\assets\js\main.js" />
+    <None Include="wwwroot\assets\js\vmap.sampledata.js" />
+    <None Include="wwwroot\assets\js\widgets.js" />
+    <None Include="wwwroot\assets\scss\style.css.map" />
+    <None Include="wwwroot\assets\scss\style.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
